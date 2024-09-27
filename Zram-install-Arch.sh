@@ -15,7 +15,7 @@ echo '[zram0]
 zram-size = ram
 compression-algorithm = zstd' | sudo tee /etc/systemd/zram-generator.conf
 
-# Create sysctl configuration for optimizing swap on zram
+# Create sysctl configuration for additional swapping optimizations
 echo 'vm.swappiness = 180
 vm.watermark_boost_factor = 0
 vm.watermark_scale_factor = 125
@@ -31,3 +31,4 @@ sudo systemctl start systemd-zram-setup@zram0.service
 echo "check with"
 echo "sudo swapon or sudo zramctl"
 echo "or sudo systemctl status systemd-zram-setup@zram0.service"
+echo "Reboot the system for additional swapping optimizations to take effect"
