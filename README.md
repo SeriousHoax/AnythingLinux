@@ -7,7 +7,7 @@ A place for linux related useful items
 ## openSUSE Tumbleweed
 1. [Enabling Zram on openSUSE](https://github.com/SeriousHoax/AnythingLinux#enabling-zram-on-opensuse)
 
-## <u>Arch Linux</u>
+## Arch Linux
 
 ### Enabling Zram on Arch Linux
 Same as above except this will use the `Zram-install-Arch.sh` script
@@ -62,7 +62,7 @@ To sign systemd-boot for distributions other than Arch, modify step 2 according 
 
 The systemd-boot configuration file is located at, ```/boot/loader/loader.conf```
 
-## <u>openSUSE Tumbleweed</u>
+## openSUSE Tumbleweed
 
 ### Enabling Zram on openSUSE
 Copy the code below and paste it into your Terminal. It will download the `Zram-install-openSUSE.sh` script from the repository to your `home` directory, install the required tool for configuration, optimize the swapping parameters to the recommended values, and enable it on your device
