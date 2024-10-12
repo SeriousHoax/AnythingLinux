@@ -1,17 +1,21 @@
 # AnythingLinux
 A place for linux related useful items
-## Enabling Zram on openSUSE
-Copy the code below and paste it into your Terminal. It will download the `Zram-install-openSUSE.sh` script from the repository to your `home` directory, install the required tool for configuration, optimize the swapping parameters to the recommended values, and enable it on your device
-```
-curl -o ~/Zram-install-openSUSE.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-openSUSE.sh && chmod +x ~/Zram-install-openSUSE.sh && ~/Zram-install-openSUSE.sh
-```
-## Enabling Zram on Arch Linux
+
+## Arch Linux
+1. [Enabling Zram on Arch Linux](https://github.com/SeriousHoax/AnythingLinux#enabling-zram-on-arch-linux)
+2. [Sign Arch systemd-bootloader using sbctl](https://github.com/SeriousHoax/AnythingLinux#sign-arch-systemd-bootloader-using-sbctl-for-secureboot-support)
+## openSUSE Tumbleweed
+1. [Enabling Zram on openSUSE](https://github.com/SeriousHoax/AnythingLinux#enabling-zram-on-opensuse)
+
+## <u>Arch Linux</u>
+
+### Enabling Zram on Arch Linux
 Same as above except this will use the `Zram-install-Arch.sh` script
 ```
 curl -o ~/Zram-install-Arch.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-Arch.sh && chmod +x ~/Zram-install-Arch.sh && ~/Zram-install-Arch.sh
 ```
 
-## Sign Arch systemd-bootloader using [sbctl](https://github.com/Foxboron/sbctl) for SecureBoot support
+### Sign Arch systemd-bootloader using [sbctl](https://github.com/Foxboron/sbctl) for SecureBoot support
 1. First of all enable ```secure boot``` in your BIOS and set it to ```setup mode```
 
 2. Install sbctl, 
@@ -57,3 +61,11 @@ bootctl install
 To sign systemd-boot for distributions other than Arch, modify step 2 according to the information provided on sbctl's GitHub.
 
 The systemd-boot configuration file is located at, ```/boot/loader/loader.conf```
+
+## <u>openSUSE Tumbleweed</u>
+
+### Enabling Zram on openSUSE
+Copy the code below and paste it into your Terminal. It will download the `Zram-install-openSUSE.sh` script from the repository to your `home` directory, install the required tool for configuration, optimize the swapping parameters to the recommended values, and enable it on your device
+```
+curl -o ~/Zram-install-openSUSE.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-openSUSE.sh && chmod +x ~/Zram-install-openSUSE.sh && ~/Zram-install-openSUSE.sh
+```
