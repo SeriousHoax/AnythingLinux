@@ -4,7 +4,7 @@ A place for linux related useful items
 ## [Arch Linux](https://archlinux.org)
 1. [Enable Zram on Arch Linux](https://github.com/SeriousHoax/AnythingLinux#enable-zram-on-arch-linux)
 2. [Sign Arch systemd-bootloader using sbctl](https://github.com/SeriousHoax/AnythingLinux#sign-arch-systemd-bootloader-using-sbctl-for-secureboot-support)
-## [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)
+## [openSUSE Tumbleweed](https://www.opensuse.org)
 1. [Enable Zram on openSUSE](https://github.com/SeriousHoax/AnythingLinux#enable-zram-on-opensuse)
 
 ## [Any Distribution](https://www.linux.org/pages/download)
