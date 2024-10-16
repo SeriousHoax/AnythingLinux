@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Author: SeriousHoax
-#GitHub: https://github.com/SeriousHoax
+# Author: SeriousHoax
+# GitHub: https://github.com/SeriousHoax
 
 # https://wiki.archlinux.org/title/Zram
 
