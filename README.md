@@ -1,15 +1,18 @@
 # AnythingLinux
 A place for linux related useful items
 
-## Arch Linux
-1. [Enabling Zram on Arch Linux](https://github.com/SeriousHoax/AnythingLinux#enabling-zram-on-arch-linux)
+## [Arch Linux](https://archlinux.org)
+1. [Enable Zram on Arch Linux](https://github.com/SeriousHoax/AnythingLinux#enable-zram-on-arch-linux)
 2. [Sign Arch systemd-bootloader using sbctl](https://github.com/SeriousHoax/AnythingLinux#sign-arch-systemd-bootloader-using-sbctl-for-secureboot-support)
-## openSUSE Tumbleweed
-1. [Enabling Zram on openSUSE](https://github.com/SeriousHoax/AnythingLinux#enabling-zram-on-opensuse)
+## [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)
+1. [Enable Zram on openSUSE](https://github.com/SeriousHoax/AnythingLinux#enable-zram-on-opensuse)
+
+## [Any Distribution](https://www.linux.org/pages/download)
+1. [Enable syntax highlighting for nano](https://github.com/SeriousHoax/AnythingLinux#enable-syntax-highlighting-for-nano)
 
 ## Arch Linux
 
-### Enabling Zram on Arch Linux
+### Enable [Zram](https://wiki.archlinux.org/title/Zram) on Arch Linux
 Same as above except this will use the `Zram-install-Arch.sh` script
 ```
 curl -o ~/Zram-install-Arch.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-Arch.sh && chmod +x ~/Zram-install-Arch.sh && ~/Zram-install-Arch.sh
@@ -64,8 +67,15 @@ The systemd-boot configuration file is located at, ```/boot/loader/loader.conf``
 
 ## openSUSE Tumbleweed
 
-### Enabling Zram on openSUSE
+### Enable [Zram](https://wiki.archlinux.org/title/Zram) on openSUSE
 Copy the code below and paste it into your Terminal. It will download the `Zram-install-openSUSE.sh` script from the repository to your `home` directory, install the required tool for configuration, optimize the swapping parameters to the recommended values, and enable it on your device
 ```
 curl -o ~/Zram-install-openSUSE.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-openSUSE.sh && chmod +x ~/Zram-install-openSUSE.sh && ~/Zram-install-openSUSE.sh
+```
+
+## Any Distribution
+
+### Enable [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) for [nano](https://www.nano-editor.org)
+```
+curl -o ~/nano-syntax-highlighting.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/nano-syntax-highlighting.sh && chmod +x ~/nano-syntax-highlighting.sh && ~/nano-syntax-highlighting.sh
 ```
