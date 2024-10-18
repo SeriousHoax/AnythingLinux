@@ -13,7 +13,7 @@ A place for linux related useful items
 ## Arch Linux
 
 ### Enable [Zram](https://wiki.archlinux.org/title/Zram) on Arch Linux
-Same as above except this will use the `Zram-install-Arch.sh` script
+Copy the code below and paste it into your Terminal. It will download the `Zram-install-Arch.sh` script from the repository to your `home` directory, install the required tool for configuration, optimize the swapping parameters to the recommended values, and enable it on your device
 ```
 curl -o ~/Zram-install-Arch.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-Arch.sh && chmod +x ~/Zram-install-Arch.sh && ~/Zram-install-Arch.sh
 ```
@@ -76,6 +76,7 @@ curl -o ~/Zram-install-openSUSE.sh https://raw.githubusercontent.com/SeriousHoax
 ## Any Distribution
 
 ### Enable [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) for [nano](https://www.nano-editor.org)
+Copy and paste the code into your Terminal. It will download the `nano-syntax-highlighting.sh` script from this repository to your home directory, download all the required files from [nano-syntax-highlighting](https://github.com/galenguyer/nano-syntax-highlighting) and configure them on your system
 ```
 curl -o ~/nano-syntax-highlighting.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/nano-syntax-highlighting.sh && chmod +x ~/nano-syntax-highlighting.sh && ~/nano-syntax-highlighting.sh
 ```
