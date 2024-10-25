@@ -9,7 +9,7 @@
 
 sudo mkdir -p /usr/share/nano-syntax-highlighting && \
 echo -e "\e[32mCreated directory /usr/share/nano-syntax-highlighting\e[0m" && \
-sudo wget -O /usr/share/nano-syntax-highlighting/nano-syntax-highlighting.zip https://github.com/galenguyer/nano-syntax-highlighting/archive/refs/heads/master.zip && \
+sudo sudo curl -L -o /usr/share/nano-syntax-highlighting/nano-syntax-highlighting.zip https://github.com/galenguyer/nano-syntax-highlighting/archive/refs/heads/master.zip && \
 echo -e "\e[32mDownloaded nano-syntax-highlighting.zip\e[0m" && \
 sudo unzip /usr/share/nano-syntax-highlighting/nano-syntax-highlighting.zip -d /usr/share/nano-syntax-highlighting && \
 echo -e "\e[32mUnzipped the files\e[0m" && \
