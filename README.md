@@ -12,7 +12,7 @@ curl -o ~/Zram-install-Arch.sh https://raw.githubusercontent.com/SeriousHoax/Any
 
 ### [Ubuntu](https://ubuntu.com/)
 ```
-curl -o ~/Zram-install-Ubuntu.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/master/Zram-install-Ubuntu.sh && chmod +x ~/Zram-install-Ubuntu.sh && ~/Zram-install-openSUSE.sh && rm ~/Zram-install-Ubuntu.sh
+curl -o ~/Zram-install-Ubuntu.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/master/Zram-install-Ubuntu.sh && chmod +x ~/Zram-install-Ubuntu.sh && ~/Zram-install-Ubuntu.sh && rm ~/Zram-install-Ubuntu.sh
 ```
 
 ### [openSUSE Tumbleweed](https://www.opensuse.org)
