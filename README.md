@@ -3,7 +3,7 @@ A place for linux related useful items
 
 ## Enable [Zram](https://wiki.archlinux.org/title/Zram)
 
-The commands below will download the installation script from the repository to your `home` directory, install the required tools, optimize swapping parameters to recommended values, and enable Zram on your device.
+The commands below will download the installation script from the repository to your home directory, install the required tools, optimize swapping parameters to recommended values, and enable Zram on your device.
 
 ### [Arch Linux](https://archlinux.org)
 ```
