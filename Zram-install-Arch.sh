@@ -15,14 +15,28 @@ for swap_path in "/swapfile" "/swap/swapfile"; do
         sudo sed -i "\|$swap_path|d" /etc/fstab
         sudo rm -f "$swap_path"
         echo "$swap_path removed and fstab entry cleaned."
-
-        # If the file was inside /swap, remove the folder too
-        if [[ "$swap_path" == "/swap/swapfile" ]]; then
-            sudo rmdir --ignore-fail-on-non-empty /swap 2>/dev/null
-            echo "/swap directory removed (if empty)."
-        fi
     fi
 done
+
+# Explicitly handle /swap directory cleanup
+if [ -d "/swap" ]; then
+    # Check if /swap is a mountpoint and unmount it if so
+    if mountpoint -q /swap; then
+        echo "/swap is a mountpoint. Unmounting..."
+        sudo umount /swap 2>/dev/null
+        # Remove /swap mount entry from fstab
+        sudo sed -i '\|/swap[[:space:]]|d' /etc/fstab
+    fi
+    # Try to remove the directory
+    sudo rm -rf /swap
+    
+    # Verify removal
+    if [ ! -d "/swap" ]; then
+        echo "/swap directory removed."
+    else
+        echo "Note: /swap could not be removed (it might be a Btrfs subvolume or non-empty)."
+    fi
+fi
 
 # Disable any active swap partitions
 for swap_dev in $(swapon --show=NAME --noheadings); do
