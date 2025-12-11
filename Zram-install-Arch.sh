@@ -8,7 +8,7 @@
 # https://github.com/systemd/zram-generator
 
 # Remove existing swapfiles if present
-for swap_path in "/swapfile" "/swap/swapfile"; do
+for swap_path in "/swapfile" "/swap/swapfile" "/swap.img"; do
     if [ -f "$swap_path" ]; then
         echo "Disabling and removing $swap_path..."
         sudo swapoff "$swap_path" 2>/dev/null
