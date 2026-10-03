@@ -11,19 +11,19 @@ The commands below will download the installation script from the repository to 
 ### [Arch Linux](https://archlinux.org)
 
 ```
-curl -o ~/Zram-install-Arch.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/master/Zram-install-Arch.sh && chmod +x ~/Zram-install-Arch.sh && ~/Zram-install-Arch.sh && rm ~/Zram-install-Arch.sh
+curl -o ~/Zram-install-Arch.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-Arch.sh && chmod +x ~/Zram-install-Arch.sh && ~/Zram-install-Arch.sh && rm ~/Zram-install-Arch.sh
 ```
 
 ### [Ubuntu](https://ubuntu.com/)
 
 ```
-curl -o ~/Zram-install-Ubuntu.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/master/Zram-install-Ubuntu.sh && chmod +x ~/Zram-install-Ubuntu.sh && ~/Zram-install-Ubuntu.sh && rm ~/Zram-install-Ubuntu.sh
+curl -o ~/Zram-install-Ubuntu.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-Ubuntu.sh && chmod +x ~/Zram-install-Ubuntu.sh && ~/Zram-install-Ubuntu.sh && rm ~/Zram-install-Ubuntu.sh
 ```
 
 ### [openSUSE Tumbleweed](https://www.opensuse.org)
 
 ```
-curl -o ~/Zram-install-openSUSE.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/master/Zram-install-openSUSE.sh && chmod +x ~/Zram-install-openSUSE.sh && ~/Zram-install-openSUSE.sh && rm ~/Zram-install-openSUSE.sh
+curl -o ~/Zram-install-openSUSE.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/Zram-install-openSUSE.sh && chmod +x ~/Zram-install-openSUSE.sh && ~/Zram-install-openSUSE.sh && rm ~/Zram-install-openSUSE.sh
 ```
 
 ---
@@ -101,5 +101,5 @@ bootctl install
 Copy and paste the code into your Terminal. It will download the `nano-syntax-highlighting.sh` script from this repository to your home directory, download all the required files from [nano-syntax-highlighting](https://github.com/galenguyer/nano-syntax-highlighting) and configure them on your system.
 
 ```
-curl -o ~/nano-syntax-highlighting.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/master/nano-syntax-highlighting.sh && chmod +x ~/nano-syntax-highlighting.sh && ~/nano-syntax-highlighting.sh && rm ~/nano-syntax-highlighting.sh
+curl -o ~/nano-syntax-highlighting.sh https://raw.githubusercontent.com/SeriousHoax/AnythingLinux/refs/heads/main/nano-syntax-highlighting.sh && chmod +x ~/nano-syntax-highlighting.sh && ~/nano-syntax-highlighting.sh && rm ~/nano-syntax-highlighting.sh
 ```
